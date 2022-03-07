@@ -6,12 +6,7 @@ Bootcamp GFT Java Project
 This is Non Commercial JAVA project. There is no primarily intended for or directed toward commercial advantage or monetary compensation. 
 
 
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="CapaVideo.png">
-    <source src="path/to/VideoApresentacao.mp4" type="video/mp4">
-  </video>
-</figure>
+[![](CapaVideo.png)](VideoApresentacao.mp4)
 
 
 
