@@ -137,8 +137,8 @@ public class EntradaLogin extends JFrame implements ActionListener {
             try {
                 Class.forName("org.postgresql.Driver");
                 c = DriverManager
-                        .getConnection("jdbc:postgresql://localhost:5432/gringotts",
-                                "postgres", "dsacademy");
+                        .getConnection("jdbc:postgresql://localhost:5432/yourdatabase",
+                                "yourusername", "yourpassword");
                 c.setAutoCommit(false);
                 System.out.println("Opened database successfully");
                 stmt = c.createStatement();
@@ -164,8 +164,8 @@ public class EntradaLogin extends JFrame implements ActionListener {
             try {
                 Class.forName("org.postgresql.Driver");
                 c = DriverManager
-                        .getConnection("jdbc:postgresql://localhost:5432/gringotts",
-                                "postgres", "dsacademy");
+                        .getConnection("jdbc:postgresql://localhost:5432/yourdatabase",
+                                "yourusername", "yourpassword");
                 c.setAutoCommit(false);
                 System.out.println("Opened database successfully");
                 stmt = c.createStatement();
@@ -193,8 +193,8 @@ public class EntradaLogin extends JFrame implements ActionListener {
             try {
                 Class.forName("org.postgresql.Driver");
                 c = DriverManager
-                        .getConnection("jdbc:postgresql://localhost:5432/gringotts",
-                                "postgres", "dsacademy");
+                        .getConnection("jdbc:postgresql://localhost:5432/yourdatabse",
+                                "yourusername", "yourpassword");
                 c.setAutoCommit(false);
                 System.out.println("Opened database successfully");
                 stmt = c.createStatement();
@@ -221,8 +221,8 @@ public class EntradaLogin extends JFrame implements ActionListener {
             try {
                 Class.forName("org.postgresql.Driver");
                 c = DriverManager
-                        .getConnection("jdbc:postgresql://localhost:5432/gringotts",
-                                "postgres", "dsacademy");
+                        .getConnection("jdbc:postgresql://localhost:5432/yourdatabase",
+                                "yourusername", "yourpassword");
                 c.setAutoCommit(false);
                 System.out.println("Opened database successfully");
                 stmt = c.createStatement();

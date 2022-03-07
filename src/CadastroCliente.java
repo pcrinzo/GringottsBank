@@ -308,8 +308,8 @@ public class CadastroCliente extends JFrame implements ActionListener {
             try {
                 Class.forName("org.postgresql.Driver");
                 c = DriverManager
-                        .getConnection("jdbc:postgresql://localhost:5432/gobank",
-                                "postgres", "dsacademy");
+                        .getConnection("jdbc:postgresql://localhost:5432/yourdatabase",
+                                "yourusername", "yourpassword");
                 c.setAutoCommit(false);
                 System.out.println("Banco de Dados acessado com sucesso!");
                 stmt = c.createStatement();

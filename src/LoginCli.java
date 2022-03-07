@@ -108,8 +108,8 @@ public class LoginCli extends JFrame implements ActionListener {
 //            try {
 //                Class.forName("org.postgresql.Driver");
 //                c = DriverManager
-//                        .getConnection("jdbc:postgresql://localhost:5432/gringotts",
-//                                "postgres", "dsacademy");
+//                        .getConnection("jdbc:postgresql://localhost:5432/yourdatabase",
+//                                "yourusername", "yourpassword");
 //                c.setAutoCommit(false);
 //                System.out.println("Opened database successfully");
 //                stmt = c.createStatement();
@@ -126,8 +126,8 @@ public class LoginCli extends JFrame implements ActionListener {
 //                        try {
 //                                Class.forName("org.postgresql.Driver");
 //                                c = DriverManager
-//                                        .getConnection("jdbc:postgresql://localhost:5432/testdb",
-//                                                "postgres", "dsacademy");
+//                                        .getConnection("jdbc:postgresql://localhost:5432/yourdatabse",
+//                                                "yourusername", "yourpoassword");
 //                                c.setAutoCommit(false);
 //                                System.out.println("Opened database successfully");
 //                                stmt = c.createStatement();
@@ -151,8 +151,8 @@ public class LoginCli extends JFrame implements ActionListener {
 //                                        try {
 //                                                Class.forName("org.postgresql.Driver");
 //                                                c = DriverManager
-//                                                        .getConnection("jdbc:postgresql://localhost:5432/testdb",
-//                                                                "postgres", "dsacademy");
+//                                                        .getConnection("jdbc:postgresql://localhost:5432/yourdatabse",
+//                                                                "yourusername", "yourpassword");
 //                                                c.setAutoCommit(false);
 //                                                System.out.println("Opened database successfully");
 //                                                stmt = c.createStatement();

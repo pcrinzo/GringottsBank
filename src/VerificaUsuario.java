@@ -13,8 +13,8 @@ public class VerificaUsuario {
         {
             Class.forName("org.postgresql.Driver");
             conn= DriverManager
-                    .getConnection("jdbc:postgresql://localhost:5432/gringotts",
-                            "postgres", "dsacademy");
+                    .getConnection("jdbc:postgresql://localhost:5432/seudatabase",
+                            "yourusername", "yourpassword");
         }
 
         catch(Exception erro)
